@@ -2,6 +2,7 @@
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/welcome';
+import Message from './components/Message';
 import Hello from './components/Hello';
 import React from 'react';
 
@@ -20,6 +21,8 @@ function App() {
        <Welcome name="Bruce" heroName="Batman"/>
        <Welcome name="clark" heroName="superman"/>
        <Welcome name="Diana" heroName="wonder women"/>
+
+       <Message />
 
       {/* <Hello /> */} 
     </div>
