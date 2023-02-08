@@ -7,13 +7,15 @@ import Hello from './components/Hello';
 import Counter from './components/Counter';
 import React from 'react';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   // With JSX
    return (
    <div className="App" >
 
-      <FunctionClick />
+      <ClassClick />
+      {/* <FunctionClick /> */}
       {/* <Counter /> */}
       {/* <Greet name="Bruce" heroName="Batman">
         <p>the first Greet method</p>
