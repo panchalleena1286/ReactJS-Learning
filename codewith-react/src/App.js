@@ -6,13 +6,15 @@ import Message from './components/Message';
 import Hello from './components/Hello';
 import Counter from './components/Counter';
 import React from 'react';
+import FunctionClick from './components/FunctionClick';
 
 function App() {
   // With JSX
    return (
    <div className="App" >
 
-      <Counter />
+      <FunctionClick />
+      {/* <Counter /> */}
       {/* <Greet name="Bruce" heroName="Batman">
         <p>the first Greet method</p>
       </Greet>
