@@ -4,13 +4,16 @@ import Greet from './components/Greet';
 import Welcome from './components/welcome';
 import Message from './components/Message';
 import Hello from './components/Hello';
+import Counter from './components/Counter';
 import React from 'react';
 
 function App() {
   // With JSX
    return (
    <div className="App" >
-      <Greet name="Bruce" heroName="Batman">
+
+      <Counter />
+      {/* <Greet name="Bruce" heroName="Batman">
         <p>the first Greet method</p>
       </Greet>
       <Greet name="clark" heroName="superman">
@@ -20,9 +23,9 @@ function App() {
 
        <Welcome name="Bruce" heroName="Batman"/>
        <Welcome name="clark" heroName="superman"/>
-       <Welcome name="Diana" heroName="wonder women"/>
+       <Welcome name="Diana" heroName="wonder women"/> */}
 
-       <Message />
+       {/* <Message /> */}
 
       {/* <Hello /> */} 
     </div>
