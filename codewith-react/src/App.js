@@ -10,14 +10,15 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   // With JSX
    return (
    <div className="App" >
 
-
-        <ParentComponent />
+      <UserGreeting />
+        {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
