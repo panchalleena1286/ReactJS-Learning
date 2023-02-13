@@ -13,16 +13,20 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Person from './components/Person';
+import KeyExample from './components/KeyExample';
+
 
 function App() {
   // With JSX
    return (
    <div className="App" >
 
-      <Person />
-      <NameList />
+
+      <KeyExample />
+      {/* <Person />
+      <NameList /> */}
       {/* <UserGreeting /> */}
-        {/* <ParentComponent /> */}
+      {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
       {/* <FunctionClick /> */}
