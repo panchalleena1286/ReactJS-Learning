@@ -14,6 +14,7 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Person from './components/Person';
 import KeyExample from './components/KeyExample';
+import Stylesheets from './components/Stylesheets';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
    <div className="App" >
 
 
-      <KeyExample />
+      <Stylesheets primary={true}/>
+      {/* <KeyExample /> */}
       {/* <Person />
       <NameList /> */}
       {/* <UserGreeting /> */}
