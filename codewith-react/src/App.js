@@ -15,6 +15,7 @@ import NameList from './components/NameList';
 import Person from './components/Person';
 import KeyExample from './components/KeyExample';
 import Stylesheets from './components/Stylesheets';
+import Inline from './components/Inline';
 
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
    return (
    <div className="App" >
 
-
-      <Stylesheets primary={true}/>
+      <Inline />
+      {/* <Stylesheets primary={true}/> */}
       {/* <KeyExample /> */}
       {/* <Person />
       <NameList /> */}
