@@ -16,6 +16,8 @@ import Person from './components/Person';
 import KeyExample from './components/KeyExample';
 import Stylesheets from './components/Stylesheets';
 import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
    return (
    <div className="App" >
 
-      <Inline />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
+      {/* <Inline /> */}
       {/* <Stylesheets primary={true}/> */}
       {/* <KeyExample /> */}
       {/* <Person />
