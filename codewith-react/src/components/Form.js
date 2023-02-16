@@ -7,6 +7,7 @@ import React, { Component } from 'react'
     
         this.state = {
              UserName: '',
+             UserId: '',
              Comments: '',
              Topic: 'react'
         }
@@ -17,6 +18,12 @@ import React, { Component } from 'react'
             UserName: event.target.value
         })
 
+    }
+
+    handleUseridChange = (event) => {
+        this.setState({
+            UserId: event.target.value
+        })
     }
 
     handleCommentsChange = (event) => {
@@ -42,6 +49,11 @@ import React, { Component } from 'react'
             <label>UserName</label>
             <input type='text' value={this.state.UserName} 
             onChange={this.handleUsernameChange}/>
+        </div>
+        <div>
+            <label>UserId</label>
+            <input type='text' value={this.state.UserId} 
+            onChange={this.handleUseridChange}/>
         </div>
         <div>
             <label>Comments</label>
