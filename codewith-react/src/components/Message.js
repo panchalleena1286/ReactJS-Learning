@@ -5,7 +5,7 @@ class Message extends Component {
     constructor() {
         super()
         this.state = {
-            message: 'welcome visitor'
+            message: 'welcome to these channel'
         }
     }
 
