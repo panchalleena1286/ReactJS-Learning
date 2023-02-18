@@ -1,8 +1,8 @@
 import React from 'react'
 
 const heading = {
-    fontSize: '25px',
-    color: 'yellow'
+    fontSize: '30px',
+    color: 'blue'
 }
 
 function Inline() {
