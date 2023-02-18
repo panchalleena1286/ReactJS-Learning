@@ -2,7 +2,7 @@ import React from 'react'
 
 const heading = {
     fontSize: '25px',
-    color: 'red'
+    color: 'yellow'
 }
 
 function Inline() {
