@@ -66,6 +66,7 @@ import React, { Component } from 'react'
                 <option>react</option>
                 <option>angular</option>
                 <option>java</option>
+                <option>Javascript</option>
             </select>
         </div>
         <button type='submit'>Submit</button>
